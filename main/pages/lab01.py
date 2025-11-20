@@ -1,5 +1,11 @@
+import os
+import sys
 import streamlit as st
-import pandas as pd
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if BASE_DIR not in sys.path:
+    sys.path.append(BASE_DIR)
+
 from modules.lab01.lab01_utils import (
     draw_cctv_police_chart,
     plot_corr_heatmap,
