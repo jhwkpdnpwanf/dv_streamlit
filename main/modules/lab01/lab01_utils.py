@@ -6,6 +6,24 @@ import seaborn as sns
 from matplotlib import cm
 import numpy as np
 
+from matplotlib import font_manager, rcParams
+from pathlib import Path
+
+HERE = Path(__file__).resolve()
+PROJECT_ROOT = HERE.parents[3]
+FONT_PATH = PROJECT_ROOT / "data" / "font" / "HangeulNuriB.ttf"
+
+
+
+if not FONT_PATH.exists():
+    raise FileNotFoundError(f"폰트 파일을 찾을 수 없습니다: {FONT_PATH}")
+
+font_manager.fontManager.addfont(str(FONT_PATH))
+font_prop = font_manager.FontProperties(fname=str(FONT_PATH))
+
+rcParams["font.family"] = font_prop.get_name()
+rcParams["axes.unicode_minus"] = False
+
 
 
 # 자치구별 CCTV와 총 경찰관서 수 그래프
