@@ -1,8 +1,5 @@
 import streamlit as st
 
-st.title("데이터시각화 11장")
-
-
 # 페이지 설정
 st.set_page_config(
     page_title="seo._.bangwool's Streamlit",
@@ -17,6 +14,8 @@ st.set_page_config(
         'About': "# 서장훈 \n - 홍익대학교 (https://www.hongik.ac.kr)"
     }
 )
+
+st.title("데이터시각화 11장")
 
 
 # 사이드바
