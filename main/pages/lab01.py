@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from modules.lab01_utils import (
+from main.modules.lab01.lab01_utils import (
     draw_cctv_police_chart,
     plot_corr_heatmap,
     plot_top10_violence_per_100k,

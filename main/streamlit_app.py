@@ -20,7 +20,7 @@ st.set_page_config(
 
 
 # 사이드바
-#st.sidebar.title("위젯")
+st.sidebar.title("위젯")
 
 #st.sidebar.checkbox("외국인 포함")
 #st.sidebar.checkbox("고령인구 포함")
