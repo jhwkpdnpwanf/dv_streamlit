@@ -26,7 +26,7 @@ html, body {
     font-weight: 700;
     color: #111;
     padding-bottom: 0.2rem;
-}
+} 
 
 /* 부제목 */
 .subtitle {
@@ -111,7 +111,7 @@ st.markdown("""
 # -------------------------------------------------
 # 실습 페이지 구성
 # -------------------------------------------------
-st.markdown("<div class='section-title'>실습 페이지 구성</div>", unsafe_allow_html=True)
+st.markdown("<div class='section-title'>실습 페이지 구성</div><br>", unsafe_allow_html=True)
 
 st.markdown("""
 <div class='card'>
@@ -140,7 +140,7 @@ st.markdown("""
 # -------------------------------------------------
 # 데이터 출처 (URL + 사용한 데이터 설명)
 # -------------------------------------------------
-st.markdown("<div class='section-title'>데이터 출처</div>", unsafe_allow_html=True)
+st.markdown("<div class='section-title'>데이터 출처</div><br>", unsafe_allow_html=True)
 
 st.markdown(
     """
