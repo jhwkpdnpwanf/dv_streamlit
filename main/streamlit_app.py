@@ -89,7 +89,7 @@ html, body {
 # -------------------------------------------------
 # 메인 제목
 # -------------------------------------------------
-st.markdown("<div class='big-title'>데이터시각화 실습 페이지</div>", unsafe_allow_html=True)
+st.markdown("<div class='big-title'>데이터시각화 실습 페이지< /div>", unsafe_allow_html=True)
 st.markdown("<div class='subtitle'>공공데이터 기반 시각화 실습을 위한 Streamlit 프로젝트입니다.</div>", unsafe_allow_html=True)
 
 
@@ -118,20 +118,20 @@ st.markdown("""
   <span class='icon-bullet'>▪️</span>
   <b>lab01 — 범죄·치안 데이터 시각화</b><br>
   CCTV·경찰관서·인구·범죄 발생 데이터를 비교하고,<br>
-  상관계수 히트맵, 막대그래프, 선그래프 등 다양한 시각화를 수행합니다.
+  만들어낸 결과를 종합적으로 분석해봅니다.  
 </div>
 
 <div class='card'>
   <span class='icon-bullet'>▪️</span>
   <b>lab02 — PyDeck 지도 시각화</b><br>
   CCTV 위치 데이터를 활용해 산점도, Hexagon 밀집도, Heatmap 등<br>
-  서로 다른 공간 시각화를 비교하고 분석합니다.
+  서로 다른 공간 시각화를 비교해봅니다.
 </div>
 
 <div class='card'>
   <span class='icon-bullet'>▪️</span>
-  <b>lab03 — 부동산 실거래가 분석 (예정)</b><br>
-  매매/전월세 실거래가를 이용한 가격 분포 및 지역별 분석 등을 다룰 예정입니다.
+  <b>lab03 — 아파트 실거래가 분석 </b><br>
+   아파트 실거래가를 이용한 지역별 가격 분포 시각화 방법을 다룹니다.
 </div>
 """, unsafe_allow_html=True)
 
