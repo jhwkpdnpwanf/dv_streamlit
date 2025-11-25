@@ -89,8 +89,10 @@ html, body {
 # -------------------------------------------------
 # 메인 제목
 # -------------------------------------------------
-st.markdown("<div class='big-title'>데이터시각화 실습 페이지< /div>", unsafe_allow_html=True)
+st.markdown("<div class='big-title'>데이터시각화 실습 페이지</div>", unsafe_allow_html=True)
 st.markdown("<div class='subtitle'>공공데이터 기반 시각화 실습을 위한 Streamlit 프로젝트입니다.</div>", unsafe_allow_html=True)
+
+
 
 
 
@@ -176,7 +178,7 @@ st.markdown(
     <a href="https://mapshaper.org/" target="_blank">
       https://mapshaper.org/
     </a><br>
-    - 행정경계 GeoJSON 단순화 및 가공
+    - 행정경계 단순화
   </p>
 
 </div>
@@ -193,3 +195,4 @@ st.markdown(
 st.sidebar.title("메뉴")
 st.sidebar.markdown("실습 페이지로 이동하세요.")
 st.sidebar.markdown("---")
+
